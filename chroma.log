@@ -552,3 +552,91 @@ sqlite3.OperationalError: attempt to write a readonly database
 [32mINFO[0m:     [25-02-2025 22:00:39] Waiting for application startup.
 [32mINFO[0m:     [25-02-2025 22:00:39] Application startup complete.
 [32mINFO[0m:     [25-02-2025 22:00:39] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [25-02-2025 22:17:02] 127.0.0.1:46790 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:17:02] 127.0.0.1:46800 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:17:02] 127.0.0.1:46808 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:17:02] 127.0.0.1:46810 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/ragdb HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:17:02] 127.0.0.1:46818 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:17:03] 127.0.0.1:46830 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:17:03] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [25-02-2025 22:17:03] 127.0.0.1:46840 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/29c62d19-ba16-4fbf-ac24-d5144fd6db91/add HTTP/1.1" 201
+[32mINFO[0m:     [25-02-2025 22:17:20] 127.0.0.1:40838 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:17:20] 127.0.0.1:40852 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:17:20] 127.0.0.1:40864 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:17:20] 127.0.0.1:40876 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/ragdb HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:17:20] 127.0.0.1:40890 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:17:21] 127.0.0.1:40894 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:17:21] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [25-02-2025 22:17:21] 127.0.0.1:40900 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c62181df-6b5c-420c-b94f-501ea2fad64f/add HTTP/1.1" 201
+[32mINFO[0m:     [25-02-2025 22:17:26] 127.0.0.1:35704 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c62181df-6b5c-420c-b94f-501ea2fad64f/query HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:17:48] 127.0.0.1:59342 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c62181df-6b5c-420c-b94f-501ea2fad64f/query HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:22:12] 127.0.0.1:32850 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:22:12] 127.0.0.1:32864 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:22:12] 127.0.0.1:32866 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:22:12] 127.0.0.1:32870 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/ragdb HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:22:12] 127.0.0.1:32880 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:22:12] 127.0.0.1:32882 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:22:12] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [25-02-2025 22:22:12] 127.0.0.1:32888 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/ed5e4f31-c1a5-49cd-b0e2-d709f304926c/add HTTP/1.1" 201
+[32mINFO[0m:     [25-02-2025 22:24:05] 127.0.0.1:47198 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:24:05] 127.0.0.1:47210 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:24:05] 127.0.0.1:47212 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:24:05] 127.0.0.1:47226 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/ragdb HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:24:05] 127.0.0.1:47228 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:24:05] Collection ragdb already exists, returning existing collection.
+[32mINFO[0m:     [25-02-2025 22:24:05] 127.0.0.1:47244 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:24:06] 127.0.0.1:47254 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:24:06] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [25-02-2025 22:24:06] 127.0.0.1:47266 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/7f20a3e3-202d-427c-ac93-728af6e72c53/upsert HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:25:45] 127.0.0.1:35994 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:25:45] 127.0.0.1:35996 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:25:45] 127.0.0.1:36008 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:25:45] 127.0.0.1:36010 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/ragdb HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:25:45] 127.0.0.1:36012 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:25:45] Collection ragdb already exists, returning existing collection.
+[32mINFO[0m:     [25-02-2025 22:25:45] 127.0.0.1:36022 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:25:45] 127.0.0.1:36030 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:25:45] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [25-02-2025 22:25:45] 127.0.0.1:36042 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a5f0d373-285a-41c6-beef-caded2b084dc/upsert HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:26:35] 127.0.0.1:42538 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:26:35] 127.0.0.1:42550 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:26:35] 127.0.0.1:42554 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:26:35] 127.0.0.1:42564 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/ragdb HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:26:35] 127.0.0.1:42570 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:26:35] Collection ragdb already exists, returning existing collection.
+[32mINFO[0m:     [25-02-2025 22:26:35] 127.0.0.1:42584 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:26:35] 127.0.0.1:42586 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:26:35] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [25-02-2025 22:26:35] 127.0.0.1:42600 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/415d809f-099f-4366-9b03-7eead8f028ee/upsert HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:26:54] 127.0.0.1:57472 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:26:54] 127.0.0.1:57474 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:26:54] 127.0.0.1:57490 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:26:54] 127.0.0.1:57492 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/ragdb HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:26:54] 127.0.0.1:57502 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:26:54] Collection ragdb already exists, returning existing collection.
+[32mINFO[0m:     [25-02-2025 22:26:54] 127.0.0.1:57504 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:26:54] 127.0.0.1:57512 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:26:54] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [25-02-2025 22:26:54] 127.0.0.1:57524 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/8095aa93-153f-4c01-99d6-edf32ca090b2/upsert HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:27:39] 127.0.0.1:60694 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:27:39] 127.0.0.1:60710 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:27:39] 127.0.0.1:60714 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:27:39] 127.0.0.1:60730 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/ragdb HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:27:39] 127.0.0.1:60740 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:27:39] Collection ragdb already exists, returning existing collection.
+[32mINFO[0m:     [25-02-2025 22:27:39] 127.0.0.1:60756 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:27:39] 127.0.0.1:60764 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:27:39] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [25-02-2025 22:27:39] 127.0.0.1:60770 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/3d184754-76e8-4b04-9b46-cb647e164f3e/upsert HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:34:10] 127.0.0.1:41664 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:34:10] 127.0.0.1:41676 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:34:10] 127.0.0.1:41680 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:34:10] 127.0.0.1:41696 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/ragdb HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:34:10] 127.0.0.1:41706 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:34:10] Collection ragdb already exists, returning existing collection.
+[32mINFO[0m:     [25-02-2025 22:34:10] 127.0.0.1:41718 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [25-02-2025 22:34:11] 127.0.0.1:41722 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [25-02-2025 22:34:11] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [25-02-2025 22:34:11] 127.0.0.1:41730 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b752f0a6-721d-45dd-989a-5ab3333e9697/upsert HTTP/1.1" 200
+[33mWARNING[0m:  [25-02-2025 22:34:22] Number of requested results 4 is greater than number of elements in index 3, updating n_results = 3
+[32mINFO[0m:     [25-02-2025 22:34:22] 127.0.0.1:56952 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/b752f0a6-721d-45dd-989a-5ab3333e9697/query HTTP/1.1" 200
